@@ -6,7 +6,7 @@ body, h1, h2, h3, p, ul, li {
 
 /* Apply styles to the entire body with a background image */
 body {
-    background-image: url('background.jpg'); /* Replace 'background.jpg' with your image file name or URL */
+    background-image: url('images/thecreator.jpg'); /* Replace 'background.jpg' with your image file name or URL */
     background-size: cover; /* Ensures the image covers the entire body */
     background-attachment: fixed; /* Fixes the background image in place */
     background-repeat: no-repeat; /* Prevent background image from repeating */
@@ -17,6 +17,21 @@ body {
     color: #000;
     position: relative;
 }
+/* Add styles for the outer page container */
+.page {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Make sure it takes up the full viewport height */
+    background-image: url('images/thecreator.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top left, top right, bottom left, bottom right;
+}
+
+/* Rest of your CSS remains the same */
+/* ... */
 
 /* Style the content within the resume */
 .container {
