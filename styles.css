@@ -9,6 +9,7 @@ body {
     background-image: url('images/thecreator.jpg'); /* Replace 'background.jpg' with your image file name or URL */
     background-size: cover; /* Ensures the image covers the entire body */
     background-attachment: fixed; /* Fixes the background image in place */
+    background-position: top left, top right, bottom left, bottom right;
     font-family: 'Arial', sans-serif;
     margin: 0; /* Remove default margin to fill the entire viewport */
     padding: 0;
