@@ -29,7 +29,7 @@ body {
 /* Style the header */
 header {
     text-align: center;
-    padding: 10px 0; /* Reduced padding */
+    padding: 5px 0; /* Reduced padding */
     color: #fff; /* Text color for the header */
     background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for the header */
     position: relative; /* Position the header relative to the body */
