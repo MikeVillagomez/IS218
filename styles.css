@@ -14,8 +14,6 @@ body {
     padding: 0;
     color: #000; /* Set text color for the entire resume */
     position: relative; /* Position the content relative to the body */
-    height: 100vh; /* Set the height to 100% of the viewport height */
-    overflow: hidden; /* Hide any content that overflows the page */
 }
 
 /* Style the content within the resume */
@@ -26,8 +24,6 @@ body {
     background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background to the content */
     position: relative; /* Position the content relative to the body */
     z-index: 1; /* Ensure content is above the background image */
-    height: 100%; /* Set the height to 100% of the viewport height */
-    overflow-y: auto; /* Enable vertical scrolling within the container if needed */
 }
 
 /* Style the header */
@@ -56,16 +52,29 @@ h1, h2, h3 {
     color: #ff00ff; /* Replace with your unique color code */
 }
 
-/* Style the project links */
-a.project-link {
-    color: #0077cc; /* Link color for projects */
+/* Style links */
+a {
+    color: #0077cc; /* Link color */
     text-decoration: none;
-    padding: 0.3em 0; /* Adjust padding as needed */
 }
 
-/* Style the references section */
-section #references {
-    page-break-before: always; /* Start a new page for the references section */
+/* Style links on hover */
+a:hover {
+    text-decoration: underline;
 }
 
+/* Style list items */
+li {
+    list-style: disc; /* Use disc bullets for list items */
+    margin-left: 20px; /* Add some left margin for list items */
+}
 
+/* Style the project links */
+#projects a {
+    color: #009900; /* Project link color */
+}
+
+/* Style the project links on hover */
+#projects a:hover {
+    color: #006600; /* Project link color on hover */
+}
