@@ -14,6 +14,7 @@ body {
     padding: 0;
     color: #000; /* Set text color for the entire resume */
     position: relative; /* Position the content relative to the body */
+    overflow: hidden;
 }
 
 /* Style the content within the resume */
