@@ -20,7 +20,7 @@ body {
 .container {
     max-width: 800px;
     margin: 0 auto; /* Center the content horizontally */
-    padding: 5px; /* Further reduced padding */
+    padding: 3px; /* Further reduced padding */
     background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background to the content */
     position: relative; /* Position the content relative to the body */
     z-index: 1; /* Ensure content is above the background image */
@@ -29,7 +29,7 @@ body {
 /* Style the header */
 header {
     text-align: center;
-    padding: 5px 0; /* Further reduced padding */
+    padding: 3px 0; /* Further reduced padding */
     color: #fff; /* Text color for the header */
     background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for the header */
     position: relative; /* Position the header relative to the body */
@@ -38,8 +38,8 @@ header {
 
 /* Style the contact, education, experience, skills, relevant coursework, projects, and references sections */
 section {
-    margin: 5px 0; /* Further reduced margin */
-    padding: 5px; /* Further reduced padding */
+    margin: 3px 0; /* Further reduced margin */
+    padding: 3px; /* Further reduced padding */
     border: 1px solid #ddd;
     background-color: #f9f9f9;
     position: relative; /* Position the sections relative to the body */
