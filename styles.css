@@ -17,27 +17,12 @@ body {
     color: #000;
     position: relative;
 }
-/* Add styles for the outer page container */
-.page {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    min-height: 100vh; /* Make sure it takes up the full viewport height */
-    background-image: url('images/thecreator.jpg'); /* Replace with your background image */
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: top left, top right, bottom left, bottom right;
-}
-
-/* Rest of your CSS remains the same */
-/* ... */
 
 /* Style the content within the resume */
 .container {
     max-width: 800px;
     margin: 0 auto; /* Center the content horizontally */
-    padding: 3px; /* Minimal 3px padding */
+    padding: 10px; /* Adjust this padding as needed */
     background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background to the content */
     position: relative; /* Position the content relative to the body */
     z-index: 1; /* Ensure content is above the background image */
@@ -46,7 +31,7 @@ body {
 /* Style the header */
 header {
     text-align: center;
-    padding: 3px 0; /* Minimal 3px top and bottom padding */
+    padding: 10px 0; /* Adjust top and bottom padding */
     color: #fff; /* Text color for the header */
     background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for the header */
     position: relative; /* Position the header relative to the body */
@@ -55,8 +40,8 @@ header {
 
 /* Style the contact, education, experience, skills, relevant coursework, projects, and references sections */
 section {
-    margin: 3px 0; /* Minimal 3px top and bottom margins */
-    padding: 3px; /* Minimal 3px padding */
+    margin: 10px 0; /* Adjust top and bottom margins */
+    padding: 10px; /* Adjust this padding as needed */
     border: 1px solid #ddd;
     background-color: #f9f9f9;
     position: relative; /* Position the sections relative to the body */
@@ -83,7 +68,7 @@ a:hover {
 /* Style list items */
 li {
     list-style: disc; /* Use disc bullets for list items */
-    margin-left: 3px; /* Minimal 3px left margin for list items */
+    margin-left: 10px; /* Add some left margin for list items */
 }
 
 /* Style the project links */
