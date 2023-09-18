@@ -1,0 +1,45 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the header with a background image */
+header {
+    background-image: url('path-to-your-image.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0; /* Adjust the padding to center the content vertically */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Style the content within the header */
+.header-content {
+    background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent background overlay */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Apply styles to the sections */
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    font-family: 'Verdana', sans-serif; /* Change font for sections */
+}
+
+/* Style contact information, education, experience, and skills sections as needed */
+
+/* Add Creator Archetype-specific styles here */
+/* Example: Unique font and color for headings */
+h1, h2, h3 {
+    font-family: 'CursiveFont', cursive; /* Replace 'CursiveFont' with your chosen creative font */
+    color: #ff00ff; /* Replace with your unique color code */
+}
+
+/* Example: Creative background color for skills section */
+#skills {
+    background-color: #66ff66; /* Replace with your unique color code */
+}
