@@ -25,6 +25,7 @@ body {
     position: relative; /* Position the content relative to the body */
     z-index: 1; /* Ensure content is above the background image */
     margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 /* Style the header */
