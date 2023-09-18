@@ -44,10 +44,3 @@ section {
     background-color: #f9f9f9;
     position: relative; /* Position the sections relative to the body */
     z-index: 1; /* Ensure sections are above the background image */
-}
-
-/* Style headings */
-h1, h2, h3 {
-    font-family: 'CursiveFont', cursive; /* Replace 'CursiveFont' with your chosen creative font */
-    color: #ff00ff; /* Replace with your unique color code */
-}
