@@ -13,7 +13,6 @@ body {
     margin: 0; /* Remove default margin to fill the entire viewport */
     padding: 0;
     color: #000; /* Set text color for the entire resume */
-    position: relative; /* Position the content relative to the body */
 }
 
 /* Style the content within the resume */
@@ -22,8 +21,6 @@ body {
     margin: 0 auto; /* Center the content horizontally */
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background to the content */
-    position: relative; /* Position the content relative to the body */
-    z-index: 1; /* Ensure content is above the background image */
 }
 
 /* Style the header */
@@ -32,8 +29,6 @@ header {
     padding: 40px 0;
     color: #fff; /* Text color for the header */
     background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for the header */
-    position: relative; /* Position the header relative to the body */
-    z-index: 2; /* Ensure header is above the background image */
 }
 
 /* Style the contact, education, experience, and skills sections as needed */
@@ -42,5 +37,10 @@ section {
     padding: 20px;
     border: 1px solid #ddd;
     background-color: #f9f9f9;
-    position: relative; /* Position the sections relative to the body */
-    z-index: 1; /* Ensure sections are above the background image */
+}
+
+/* Style headings */
+h1, h2, h3 {
+    font-family: 'CursiveFont', cursive; /* Replace 'CursiveFont' with your chosen creative font */
+    color: #ff00ff; /* Replace with your unique color code */
+}
