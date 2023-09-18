@@ -6,7 +6,7 @@ body, h1, h2, h3, p, ul, li {
 
 /* Apply styles to the entire body with a background image */
 body {
-    background-image: url('images/thecreator.jpg'); /* Replace 'background.jpg' with your image file name or URL */
+    background-image: url('background.jpg'); /* Replace 'background.jpg' with your image file name or URL */
     background-size: cover; /* Ensures the image covers the entire body */
     background-attachment: fixed; /* Fixes the background image in place */
     background-repeat: no-repeat; /* Prevent background image from repeating */
@@ -20,9 +20,9 @@ body {
 
 /* Style the content within the resume */
 .container {
-    max-width: 300px; /* Reduce the max-width to make the content even smaller */
+    max-width: 100%; /* Allow the content to expand to the width of the viewport */
     margin: 0 auto; /* Center the content horizontally */
-    padding: 5px; /* Further reduce padding for a smaller resume */
+    padding: 10px; /* Add padding for spacing */
     background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background to the content */
     position: relative; /* Position the content relative to the body */
     z-index: 1; /* Ensure content is above the background image */
@@ -31,7 +31,7 @@ body {
 /* Style the header */
 header {
     text-align: center;
-    padding: 5px 0; /* Reduce top and bottom padding for a smaller header */
+    padding: 20px 0; /* Adjust top and bottom padding */
     color: #fff; /* Text color for the header */
     background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for the header */
     position: relative; /* Position the header relative to the body */
@@ -40,8 +40,8 @@ header {
 
 /* Style the contact, education, experience, skills, relevant coursework, projects, and references sections */
 section {
-    margin: 5px 0; /* Reduce top and bottom margins for smaller sections */
-    padding: 5px; /* Further reduce padding for smaller sections */
+    margin: 20px 0; /* Adjust top and bottom margins */
+    padding: 20px; /* Add padding for spacing */
     border: 1px solid #ddd;
     background-color: #f9f9f9;
     position: relative; /* Position the sections relative to the body */
@@ -52,6 +52,8 @@ section {
 h1, h2, h3 {
     font-family: 'CursiveFont', cursive; /* Replace 'CursiveFont' with your chosen creative font */
     color: #ff00ff; /* Replace with your unique color code */
+    font-size: 20px; /* Adjust font size */
+    line-height: 1.2; /* Adjust line height */
 }
 
 /* Style links */
@@ -65,18 +67,3 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Style list items */
-li {
-    list-style: disc; /* Use disc bullets for list items */
-    margin-left: 5px; /* Reduce left margin for list items */
-}
-
-/* Style the project links */
-#projects a {
-    color: #009900; /* Project link color */
-}
-
-/* Style the project links on hover */
-#projects a:hover {
-    color: #006600; /* Project link color on hover */
-}
