@@ -17,7 +17,7 @@ body {
     overflow: hidden;
     display: flex;
     justify-content: center;
-    align-items: centers;
+    align-items: center;
 }
 
 /* Style the content within the resume */
