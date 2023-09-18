@@ -6,7 +6,7 @@ body, h1, h2, h3, p, ul, li {
 
 /* Apply styles to the entire body with a background image */
 body {
-    background-image: url('background.jpg'); /* Replace 'background.jpg' with your image file name or URL */
+    background-image: url('images/creator.jpg'); /* Replace 'background.jpg' with your image file name or URL */
     background-size: cover; /* Ensures the image covers the entire body */
     background-attachment: fixed; /* Fixes the background image in place */
     font-family: 'Arial', sans-serif;
