@@ -20,7 +20,7 @@ body {
 .container {
     max-width: 800px;
     margin: 0 auto; /* Center the content horizontally */
-    padding: 20px;
+    padding: 10px; /* Reduced padding */
     background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background to the content */
     position: relative; /* Position the content relative to the body */
     z-index: 1; /* Ensure content is above the background image */
@@ -29,7 +29,7 @@ body {
 /* Style the header */
 header {
     text-align: center;
-    padding: 40px 0;
+    padding: 10px 0; /* Reduced padding */
     color: #fff; /* Text color for the header */
     background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for the header */
     position: relative; /* Position the header relative to the body */
@@ -38,8 +38,8 @@ header {
 
 /* Style the contact, education, experience, skills, relevant coursework, projects, and references sections */
 section {
-    margin: 20px 0;
-    padding: 20px;
+    margin: 10px 0; /* Reduced margin */
+    padding: 10px; /* Reduced padding */
     border: 1px solid #ddd;
     background-color: #f9f9f9;
     position: relative; /* Position the sections relative to the body */
@@ -50,6 +50,7 @@ section {
 h1, h2, h3 {
     font-family: 'CursiveFont', cursive; /* Replace 'CursiveFont' with your chosen creative font */
     color: #ff00ff; /* Replace with your unique color code */
+    font-size: 14px; /* Reduced font size */
 }
 
 /* Style links */
@@ -67,15 +68,16 @@ a:hover {
 li {
     list-style: disc; /* Use disc bullets for list items */
     margin-left: 20px; /* Add some left margin for list items */
+    font-size: 12px; /* Reduced font size */
 }
 
 /* Style the project links */
 #projects a {
     color: #009900; /* Project link color */
+    font-size: 12px; /* Reduced font size */
 }
 
 /* Style the project links on hover */
 #projects a:hover {
     color: #006600; /* Project link color on hover */
 }
- 
