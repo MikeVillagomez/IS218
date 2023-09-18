@@ -67,8 +67,10 @@ a:hover {
 
 /* Style list items */
 li {
+    list-style-position: inside;
     list-style: disc; /* Use disc bullets for list items */
-    margin-left: 10px; /* Add some left margin for list items */
+    margin-left: 0;
+    margin-left: 20px; /* Add some left margin for list items */
 }
 
 /* Style the project links */
