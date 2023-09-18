@@ -22,7 +22,7 @@ body {
 .container {
     max-width: 500px;
     margin: 0 auto; /* Center the content horizontally */
-    padding: 3px; /* Adjust this padding as needed */
+    padding: 1.5px; /* Adjust this padding as needed */
     background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background to the content */
     position: relative; /* Position the content relative to the body */
     z-index: 1; /* Ensure content is above the background image */
@@ -31,7 +31,7 @@ body {
 /* Style the header */
 header {
     text-align: center;
-    padding: 3px 0; /* Adjust top and bottom padding */
+    padding: 1.5px 0; /* Adjust top and bottom padding */
     color: #fff; /* Text color for the header */
     background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for the header */
     position: relative; /* Position the header relative to the body */
@@ -40,8 +40,8 @@ header {
 
 /* Style the contact, education, experience, skills, relevant coursework, projects, and references sections */
 section {
-    margin: 3px 0; /* Adjust top and bottom margins */
-    padding: 3px; /* Adjust this padding as needed */
+    margin: 1.5px 0; /* Adjust top and bottom margins */
+    padding: 1.5px; /* Adjust this padding as needed */
     border: 1px solid #ddd;
     background-color: #f9f9f9;
     position: relative; /* Position the sections relative to the body */
@@ -70,7 +70,7 @@ li {
     list-style-position: inside;
     list-style: disc; /* Use disc bullets for list items */
     margin-left: 0;
-    margin-left: 20px; /* Add some left margin for list items */
+    margin-left: 10px; /* Add some left margin for list items */
 }
 
 /* Style the project links */
