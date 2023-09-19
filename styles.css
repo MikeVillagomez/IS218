@@ -73,13 +73,13 @@ a:hover {
 li {
     list-style: disc; /* Use disc bullets for list items */
     margin-left: 10px; /* Further reduced left margin for list items */
-    font-size: 11px; /* Further reduced font size */
+    font-size: 12px; /* Further reduced font size */
 }
 
 /* Style the project links */
 #projects a {
     color: #009900; /* Project link color */
-    font-size: 11px; /* Further reduced font size */
+    font-size: 12px; /* Further reduced font size */
 }
 
 /* Style the project links on hover */
