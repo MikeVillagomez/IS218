@@ -53,7 +53,7 @@ section {
 
 /* Style headings */
 h1, h2, h3 {
-    font-family: cursive; /* Replace 'CursiveFont' with your chosen creative font */
+    font-family: 'Bradley Hand', cursive; /* Replace 'CursiveFont' with your chosen creative font */
     color: #ff00ff; /* Replace with your unique color code */
     font-size: 12px; /* Further reduced font size */
 }
