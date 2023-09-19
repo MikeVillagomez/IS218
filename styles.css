@@ -20,6 +20,12 @@ body {
     align-items: center;
 }
 
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 /* Style the content within the resume */
 .container {
     max-width: 800px;
@@ -30,10 +36,6 @@ body {
     z-index: 1; /* Ensure content is above the background image */
     margin-top: 1%;
 }
-.wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: center;
 
 /* Style the header */
 header {
