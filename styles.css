@@ -55,7 +55,7 @@ section {
 h1, h2, h3 {
     font-family: 'CursiveFont', cursive; /* Replace 'CursiveFont' with your chosen creative font */
     color: #ff00ff; /* Replace with your unique color code */
-    font-size: 12px; /* Further reduced font size */
+    font-size: 16px; /* Further reduced font size */
 }
 
 /* Style links */
@@ -73,13 +73,13 @@ a:hover {
 li {
     list-style: disc; /* Use disc bullets for list items */
     margin-left: 10px; /* Further reduced left margin for list items */
-    font-size: 10px; /* Further reduced font size */
+    font-size: 16px; /* Further reduced font size */
 }
 
 /* Style the project links */
 #projects a {
     color: #009900; /* Project link color */
-    font-size: 10px; /* Further reduced font size */
+    font-size: 16px; /* Further reduced font size */
 }
 
 /* Style the project links on hover */
