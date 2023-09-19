@@ -87,6 +87,11 @@ li {
     color: #006600; /* Project link color on hover */
 }
 
-address {
+body, p, ul, li, address {
+    font-family: Calibri, sans-serif;
+    font-weight: bold;
+}
+
+    address {
     font-size: 10px;
 }
