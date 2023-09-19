@@ -20,12 +20,6 @@ body {
     align-items: center;
 }
 
-.wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
 /* Style the content within the resume */
 .container {
     max-width: 800px;
