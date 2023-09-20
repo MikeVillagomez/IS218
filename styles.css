@@ -93,5 +93,7 @@ body, p, ul, li, address {
 }
 
     address {
-    font-size: 10px;
+    font-family: 'Calibri', sans-serif; /* Use the Calibri font */
+    font-weight: bold; /* Apply bold weight */
+    font-size: 13px;
 }
