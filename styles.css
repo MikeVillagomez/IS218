@@ -25,7 +25,7 @@ body {
     max-width: 800px;
     margin: auto;
     padding: 3px; /* Further reduced padding */
-    background-color: #008080; /* Add a semi-transparent background to the content */
+    background-color: #66cccc; /* Add a semi-transparent background to the content */
     position: relative; /* Position the content relative to the body */
     z-index: 1; /* Ensure content is above the background image */
     margin-top: 1%;
@@ -46,7 +46,7 @@ section {
     margin: 3px 0; /* Further reduced margin */
     padding: 3px; /* Further reduced padding */
     border: 1px solid #ddd;
-    background-color: #008080;
+    background-color: #66cccc;
     position: relative; /* Position the sections relative to the body */
     z-index: 1; /* Ensure sections are above the background image */
 }
