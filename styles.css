@@ -74,6 +74,7 @@ li {
     list-style: disc; /* Use disc bullets for list items */
     margin-left: 10px; /* Further reduced left margin for list items */
     font-size: 13px; /* Further reduced font size */
+    padding-left: 5;
 }
 
 /* Style the project links */
