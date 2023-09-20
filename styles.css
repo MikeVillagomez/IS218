@@ -101,10 +101,11 @@ body, p, ul, li, address {
 #objective h2{
     font-family: 'Tangerine', cursive; /* Replace 'CursiveFont' with your chosen creative font */
     color: #ff00ff; /* Replace with your unique color code */
-    font-size: 19px; /*
+    font-size: 19px; 
 }
 #objective p{
     font-family: Calibri, sans-serif;
     font-weight: bold;
-    font-size: 13px
+    font-size: 13px;
+}
 
